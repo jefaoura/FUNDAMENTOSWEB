@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+        background: rgb(6, 200, 244);
+        
+      }
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Utility Classes */
+.btn {
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: none;
+    background: #111;
+    color: #eee;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(247, 13, 13);
+}
+
+#navbar-items li:hover {
+    cursor: pointer;
+    background: rgb(247, 13, 13);
+}
+
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: rgb(39, 13, 154);
+    color: rgb(12, 11, 12);
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    list-style: none;
+    display: flex;
+}
+
+#navbar-items li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* Showcase */
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    
+    /* Overlay */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+
+}
+
+
+#showcase-container {
+    text-align: center;
+
+}
+
+#showcase-container h2 {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+#companies {
+    width: 100%;
+    background: rgb(196, 210, 245);
+    color: #111;
+    padding: 50px;
+
+}
+
+#companies-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+}
+
+.company {
+    display: inline-block;
+    width: 25%;
+}
+
+/* About */
+#features {
+    width: 100%;
+    background: rgb(18, 57, 158);
+    color: rgb(13, 13, 13);
+    padding: 50px;
+}
+
+#features-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background: rgb(18, 57, 158);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#features-container .title {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Product */
+#product {
+    width: 100%;
+    padding: 50px;
+}
+
+#product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    width: 650px;
+}
+
+.items .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.items .item i {
+    margin-right: 5px;
+}
+
+/* Testimonials */
+#testimonials {
+    width: 100%;
+    background: rgb(18, 57, 158);
+    color: rgb(17, 16, 16);
+    padding: 50px;
+}
+
+#testimonials-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: rgb(9, 117, 232);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.testimonial .person {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 0 100px;
+}
+
+
+.testimonial:nth-child(2) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+/* Gallery */
+#gallery {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.gallery-image {
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+/* Footer */
+#footer {
+    background: rgb(18, 57, 158);
+    color: rgb(11, 10, 10);
+    padding: 30px;
+    text-align: center;
+}
