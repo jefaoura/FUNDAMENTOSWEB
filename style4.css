@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+body
+{
+    background: #13ade3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar1-items li:hover {
+    cursor: pointer;
+    background: rgb(247, 13, 13);
+}
+
+/* Navbar */
+#navbar1 {
+    width: 100%;
+    background: rgb(39, 13, 154);
+    color: rgb(12, 11, 12);
+    height: 80px;
+}
+
+#navbar1-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar1-items {
+    list-style: none;
+    display: flex;
+}
+
+#navbar1-items li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* Utility Classes */
+
+footer {
+	text-align: center;
+	background: url("../img/show1.jpg");
+	padding: 40px;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 40px;
+	margin: 20px 0 0 0;
+}
+
+main
+{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form
+{
+    margin: 40px 0;
+}
+
+form label, form p
+{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao
+{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox
+{
+    margin: 20px 0;
+}

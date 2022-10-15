@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+	<head charset="UTF-8">
+		<title>Suporte</title>
+		<link rel="stylesheet" href="CSS/reset.css">
+		<link rel="stylesheet" href="CSS/style4.css">
+	</head>
+	<body>
+		<header>
+            <nav id="navbar1">
+                <div id="navbar1-container">
+                    <h1 class="logo">Suporte</h1>
+                    <ul1 id="navbar1-items">
+                        <li><a href="baruch.html">Início</a></li>
+                        <li><a href="bolsadevalores.html">Bolsa de Valores</a></li>
+                        <li><a href="baruch.html#product"> Serviços</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="baruch.html#testimonials">Sobre Nós</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                        <li><a href="baruch.html#gallery">Galeria</a></li>
+                    </ul1>
+                </div>
+            </nav>
+		</header>
+        
+		<main>
+            <form>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                <div>
+                        <p>Como prefere nosso contato? </p>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
     
-    <title>SUPORTE</title>
-</head>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
+                    
 
-<body>
-    <nav id="navbar">
-        <div id="navbar-container">
-            <h1 class="logo">Suporte</h1>
-            <ul id="navbar-items">
-                <li><a href="baruch.html">Início</a></li>
-                <li><a href="bolsadevalores.html">Bolsa de Valores</a></li>
-                <li><a href="baruch.html#product"> Serviços</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="baruch.html#testimonials">Sobre Nós</a></li>
-                <li><a href="suporte.html">Suporte</a></li>
-                <li><a href="baruch.html#gallery">Galeria</a></li>
-            </ul>
-        </div>
-    </nav>
+                </div>
 
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
-</body>
+                
 
+                <input type="submit" value="Enviar formulario">
+            </form>
+			
+		</main>
+
+		<footer>
+			<img src="img/show1.jpg">
+			<p class="copyright">&copy;Copyright Baruch Investimentos - 2022</p>
+		</footer>
+	</body>
 </html>
